@@ -5,7 +5,7 @@ module.exports = {
   entry: [path.join(__dirname, "src/App.js")],
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "bundle.js",
+    filename: "bundle.js"
   },
   module: {
     rules: [
@@ -33,6 +33,7 @@ module.exports = {
   mode: "development",
   devServer: {
     contentBase: path.join(__dirname, "dist"),
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebPackPlugin({
