@@ -7,7 +7,7 @@ class HeaderRight extends Component {
     return (
       <div>
         <div className="header_right">
-          <Link to="/logIn" className="nav_links"><a>Log in</a></Link>
+          <Link to="/logIn" className="nav_links"><a>Log out</a></Link>
         </div>
       </div>
     );

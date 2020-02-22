@@ -1,0 +1,36 @@
+.logIn_content{
+  width:100%;
+  float:right;
+  text-align: center;
+  padding:50px 0px 50px 50px;
+  color:white;
+  background-color:black;
+}
+
+.logIn_select_links{
+  display:inline-block;
+}
+
+.logIn_select_seperator{
+  padding: 0px 20px 0px 20px;
+  color:grey;
+}
+
+.logIn_main_options{
+  border:1px solid grey;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+  margin-top:20px;
+  padding:20px;
+}
+
+.logIn_button{
+  background-color:steelblue;
+  border:none;
+  cursor:pointer;
+}
+
+.logIn_button:hover{ 
+  color:white;
+}
