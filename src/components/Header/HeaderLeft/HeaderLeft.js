@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import './HeaderLeft.css';
+import { Link }  from 'react-router-dom';
 
 class HeaderLeft extends Component {
   render() {
     return (
       <div>
-        <a className="header_left">
-          <h2 className="header_left_text">HL</h2>
-        </a>
+        <div className="header_left">
+          <Link to="/" className="nav_links"><a>Saidokikku</a></Link>
+        </div>
       </div>
     );
   }

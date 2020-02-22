@@ -1,0 +1,13 @@
+.header_center{
+  width:60%;
+  float:right;
+  text-align: center;
+}
+
+.header_center_link{
+  display:inline-block;
+}
+
+.header_center_link1{
+  padding-right:20px;
+}

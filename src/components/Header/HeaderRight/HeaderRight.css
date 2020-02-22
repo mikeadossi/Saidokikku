@@ -1,21 +1,5 @@
 .header_right{
-  border-radius: 50%;
-  height: 1px;
-  width: 1px;
-  background-color: red;
-  position: relative;
-  right: 14px;
-  top: 6px;
+  width:20%;
   float: right;
-  padding: 24px;
-  cursor: pointer;
-}
-
-.header_right_text{
-  color:steelblue;
-  position: absolute;
-  top: -9px;
-  left: 7px;
-  height: 60px;
-  width: 60px;
+  text-align:right;
 }

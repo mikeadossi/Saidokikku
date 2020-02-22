@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import './HeaderRight.css';
+import { Link }  from 'react-router-dom';
 
 class HeaderRight extends Component {
   render() {
     return (
       <div>
-        <a className="header_right">
-          <h2 className="header_right_text">HR</h2>
-        </a>
+        <div className="header_right">
+          <Link to="/logIn" className="nav_links"><a>Log in</a></Link>
+        </div>
       </div>
     );
   }

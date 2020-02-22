@@ -1,3 +1,5 @@
-.header_left_text{
-  color:green;
+.header_left{
+  text-decoration: none !important;
+  width:20%;
+  float:right;
 }
