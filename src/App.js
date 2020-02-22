@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ReactDOM from 'react-dom';
 import Nav from './containers/Nav/Nav';
+import Footer from './containers/Footer/Footer';
 import Home from './containers/Home/Home';
 import SignUp from './containers/SignUp/SignUp';
 import LogIn from './containers/LogIn/LogIn';
@@ -20,6 +21,7 @@ class App extends React.Component {
             <Route exact path="/logIn" component={ LogIn }/>
             <Route exact path="/saitama" component={ Saitama }/>
           </Switch>
+          <Footer />
         </BrowserRouter>
       </div>
     );

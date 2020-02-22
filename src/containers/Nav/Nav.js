@@ -3,7 +3,6 @@ import './Nav.css';
 import HeaderRight from '../../components/Header/HeaderRight/HeaderRight';
 import HeaderCenter from '../../components/Header/HeaderCenter/HeaderCenter';
 import HeaderLeft from '../../components/Header/HeaderLeft/HeaderLeft';
-// import { Link } from 'react-router-dom';
 
 class Nav extends Component {
   render() {

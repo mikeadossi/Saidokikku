@@ -1,0 +1,15 @@
+.footer_content{
+  padding:30px 5px 30px 5px;
+  background-color:#F8F8F8;
+  width:100%;
+  float:right;
+  text-align: center;
+}
+
+.footer_links{
+  display:inline-block;
+}
+
+.footer_link1{
+  padding-right:20px;
+}
