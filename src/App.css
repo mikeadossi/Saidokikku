@@ -5,3 +5,13 @@ body{
 textarea:focus, input:focus{
     outline: none;
 }
+
+.content_pages{
+  width:100%;
+  float:right;
+  text-align: center;
+}
+
+.page_title{
+  color:grey;
+}

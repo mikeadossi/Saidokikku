@@ -6,4 +6,10 @@
 
 .fa-bars{
   color:white;
+  float:left;
+  padding-right:20px;
+}
+
+.fa-bars:hover{
+  cursor:pointer;
 }

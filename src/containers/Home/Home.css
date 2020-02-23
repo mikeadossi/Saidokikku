@@ -1,3 +1,37 @@
 .home_content{
-  padding:5px; 
+  padding:5px;
+}
+
+.home_text_container{
+  display:inline-block;
+  text-align:center;
+  width:50%;
+  padding:0px 30px 30px 30px;
+}
+
+.about_container{
+  border:1px solid grey;
+  margin-bottom:20px;
+  width:50%;
+  padding:5px 5px 10px 5px;
+  display:inline-block;
+  text-align:center;
+}
+
+.about_header{
+  width:100%;
+  display:inline-block;
+  text-align:center;
+}
+
+.about_icon{
+  width:10%;
+  display:inline-block;
+  border:1px solid black;
+}
+
+.about_title{
+  width:89%;
+  display:inline-block;
+  border:1px solid black;
 }
