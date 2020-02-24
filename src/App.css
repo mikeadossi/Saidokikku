@@ -10,8 +10,11 @@ textarea:focus, input:focus{
   width:100%;
   float:right;
   text-align: center;
+  background-color:lightslategray;
 }
 
 .page_title{
   color:grey;
+  font-size: 30px;
+  padding-bottom:16px;
 }

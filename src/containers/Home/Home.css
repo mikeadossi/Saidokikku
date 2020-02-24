@@ -1,5 +1,5 @@
 .home_content{
-  padding:5px;
+  /* padding:5px; */
 }
 
 .home_text_container{
@@ -9,29 +9,60 @@
   padding:0px 30px 30px 30px;
 }
 
-.about_container{
-  border:1px solid grey;
-  margin-bottom:20px;
+.home_img{
+  height:73px;
+  width:70px;
+  border:1px solid black;
+  vertical-align: top; /* powerful */
+  filter: grayscale(70%);
+}
+
+.home_header_container{
+  background-color:white;
+  padding:30px 30px 10px 30px;
+  box-shadow:0px 2px 7px grey;
+  position:absolute;
+  width:100%;
+}
+
+.home_content_container{
+  padding: 30px 0px 0px 0px;
+  background-color:white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.features_main_container{
+  padding-top:180px;
+}
+
+.features_container{
+  border:1px solid lightgrey;
+  margin-bottom:50px;
   width:50%;
   padding:5px 5px 10px 5px;
   display:inline-block;
   text-align:center;
 }
 
-.about_header{
+.features_header{
   width:100%;
   display:inline-block;
   text-align:center;
+  background-color:gainsboro;
 }
 
-.about_icon{
-  width:10%;
+.feature_icon{
+  /* width:25%; */
   display:inline-block;
-  border:1px solid black;
+  float:left;
 }
 
-.about_title{
-  width:89%;
+.feature_title{
+  /* width:80px; */
   display:inline-block;
-  border:1px solid black;
+  margin-top: 30px;
+  position: absolute;
+  padding-left: 25px;
+  font-size:30px;
 }

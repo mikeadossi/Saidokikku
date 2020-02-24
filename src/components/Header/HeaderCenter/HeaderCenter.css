@@ -8,6 +8,10 @@
   display:inline-block;
 }
 
-.header_center_link1{
-  padding-right:20px;
+.header_center_links:hover{
+  color:wheat;
+}
+
+.header_center_link1, .header_center_link2{
+  padding-right:40px;
 }

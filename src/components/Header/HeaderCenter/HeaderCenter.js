@@ -7,10 +7,13 @@ class HeaderCenter extends Component {
     return (
       <div className="header_center_content">
         <Link to="/saitama" className="nav_links">
-          <div className="header_center_links header_center_link1">Link1</div>
+          <div className="header_center_links header_center_link1">Saitama</div>
         </Link>
         <Link to="/saitama" className="nav_links">
-          <div className="header_center_links header_center_link2">Link2</div>
+          <div className="header_center_links header_center_link2">Ryuzaki</div>
+        </Link>
+        <Link to="/saitama" className="nav_links">
+          <div className="header_center_links header_center_link3">Ed</div>
         </Link>
       </div>
     );
