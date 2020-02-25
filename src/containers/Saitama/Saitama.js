@@ -1,14 +1,16 @@
 import React from 'react';
 import './Saitama.css';
+import SaitamaSelectContainer from '../../components/SaitamaSelectContainer';
 
 const Saitama = () => (
-  <div className="content_pages saitama_content">
-    <div className="home_header_container">
-      <div className="page_title">SAITAMA</div>
+  <div className="app_grey_background">
+    <div className="app_banner_container">
+      <div className="app_banner_title">SAITAMA</div>
     </div>
-    <div className="home_content_container">
-      <div className="features_main_container">
-        Saitama
+    <div className="app_content_container">
+      <div className="app_white_background_container">
+        <SaitamaSelectContainer />
+        <div className="saitama_content_window"></div>
       </div>
     </div>
   </div>

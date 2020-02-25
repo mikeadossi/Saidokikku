@@ -1,8 +1,4 @@
-.home_content{
-  /* padding:5px; */
-}
-
-.home_text_container{
+.home_banner_text{
   display:inline-block;
   text-align:center;
   width:50%;
@@ -17,22 +13,7 @@
   filter: grayscale(70%);
 }
 
-.home_header_container{
-  background-color:white;
-  padding:30px 30px 10px 30px;
-  box-shadow:0px 2px 7px grey;
-  position:absolute;
-  width:100%;
-}
-
 .home_content_container{
-  padding: 30px 0px 0px 0px;
-  background-color:white;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.features_main_container{
   padding-top:180px;
 }
 

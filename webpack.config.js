@@ -38,13 +38,6 @@ module.exports = {
           },
         ],
       },
-
-
-
-
-
-
-
     ],
   },
   mode: "development",

@@ -6,15 +6,30 @@ textarea:focus, input:focus{
     outline: none;
 }
 
-.content_pages{
+.app_grey_background{
   width:100%;
   float:right;
   text-align: center;
   background-color:lightslategray;
 }
 
-.page_title{
+.app_banner_title{
   color:grey;
   font-size: 30px;
   padding-bottom:16px;
+}
+
+.app_banner_container{
+  background-color:white;
+  padding:30px 0px 10px 0px;
+  box-shadow:0px 2px 7px grey;
+  position:absolute;
+  width:100%;
+}
+
+.app_content_container{
+  padding: 30px 0px 0px 0px;
+  background-color:white;
+  margin-left: 10%;
+  margin-right: 10%;
 }

@@ -1,0 +1,31 @@
+.saitama_option{
+  display:inline-block;
+  width:200px;
+  padding:10px;
+  border:1px solid grey;
+  margin-right:5px;
+  cursor:pointer;
+  text-align: center;
+}
+
+.saitama_option:hover{
+  cursor:pointer;
+  color:indianred;
+}
+
+.saitama_option_center{
+  font-size:20px;
+}
+
+.saitama_content_window{
+  width:95%;
+  border:1px solid grey;
+  padding:50px;
+  margin: 0 auto;
+  padding: 30px 0px 0px 0px;
+}
+
+.saitama_select_container{
+  padding-top:100px;
+  padding-bottom: 10px;
+}
