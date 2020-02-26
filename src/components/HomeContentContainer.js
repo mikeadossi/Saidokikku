@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import saitama_img from './images/saitama_400.jpeg'
-import ryuzaki_img from './images/ryuzaki_400.jpeg'
-import ed_img from './images/Ed_600.png'
+import saitama_img from './images/saitama_400.jpeg';
+import ryuzaki_img from './images/ryuzaki_400.jpeg';
+import ed_img from './images/Ed_600.png';
 
 class HomeContentContainer extends Component {
   render() {

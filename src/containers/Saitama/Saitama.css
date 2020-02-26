@@ -10,11 +10,17 @@
 
 .saitama_option:hover{
   cursor:pointer;
-  color:indianred;
 }
 
+.saitama_option_right{
+  background-color:#EBEBEB;
+}
 .saitama_option_center{
-  font-size:20px;
+  background-color:#EBEBEB;
+}
+
+.saitama_option_left{
+  color:steelblue;
 }
 
 .saitama_content_window{
@@ -26,6 +32,6 @@
 }
 
 .saitama_select_container{
-  padding-top:100px;
-  padding-bottom: 10px;
+  padding-top:80px;
+  padding-bottom: 15px;
 }
