@@ -29,9 +29,201 @@
   padding:50px;
   margin: 0 auto;
   padding: 30px 0px 0px 0px;
+  text-align:left;
 }
 
 .saitama_select_container{
   padding-top:80px;
   padding-bottom: 15px;
+}
+
+.campaign_select_container{
+  border:1px solid gainsboro;
+  margin:10px 10px 10px 10px;
+}
+
+.campaign_select_option_ul{
+  list-style:none;
+  font-size:17px;
+  padding:10px;
+  font-family:serif;
+  border:1px solid white;
+}
+
+.campaign_option_name{
+  color:black;
+  border:none;
+  font-family:serif;
+  font-size:17px;
+}
+
+.campaign_select_option{
+  padding:5px;
+}
+
+.campaign_select_option input:hover{
+  cursor:pointer;
+}
+
+.campaign_select_option:hover{
+  cursor:pointer;
+}
+
+.create_new_campaign_btn:hover{
+  background-color:gainsboro;
+  padding:5px;
+}
+
+.create_new_campaign_btn{
+  text-align: center;
+  border:1px solid black;
+  border-radius:3px;
+}
+
+.campaign_select_option_hr{
+   background-color:gainsboro;
+   height:1px;
+   border:0;
+}
+
+.create_new_campaign_container, .name_campaign_container{
+  background-color:steelblue;
+  text-align:center;
+  padding:20px;
+  margin:10px 10px 10px 10px;
+  border-radius:3px;
+}
+
+.campaign_url_entry_header, .name_campaign_header{
+  color:white;
+  padding-bottom:10px;
+  font-size: 20px;
+}
+
+.campaign_url_entry{
+  width: 70%;
+}
+
+.edit_campaign_name_entry{
+  width:40%;
+}
+
+.campaign_url_entry, .edit_campaign_name_entry{
+  padding:4px;
+}
+
+.campaign_url_entry_button:hover, .campaign_name_btns:hover{
+  cursor:pointer;
+  background-color:gainsboro;
+}
+
+.campaign_url_entry_button{
+  margin-left:10px;
+  padding:5px;
+  border-radius:3px;
+}
+
+.campaign_name_btns{
+  margin-left:10px;
+  padding:5px;
+  border-radius:3px;
+  width:80px;
+}
+
+.save_campaign_name_button{
+  color:green;
+}
+
+.campaign_workstation_container{
+  list-style: none;
+  font-size: 17px;
+  padding: 10px;
+  font-family: serif;
+  border: 1px solid gainsboro;
+  margin: 10px 10px 10px 10px;
+}
+
+.campaign_workstation_title{
+  font-family: serif;
+  font-size: 30px;
+  border:none;
+  width:80%;
+  padding: 10px 0px 10px 0px;
+}
+
+.campaign_workstation_left, .campaign_workstation_right{
+  display:inline-block;
+  border:1px solid black;
+}
+
+.campaign_workstation_left{
+  margin-right:2px;
+  width:20%;
+  padding:40px 10px 40px 10px;
+}
+
+.campaign_workstation_right{
+  margin-right:3px;
+  width:72%;
+  padding:20px;
+}
+
+.workstation_lead_list:hover{
+  cursor:pointer;
+  opacity:0.8;
+}
+
+.workstation_lead_list{
+  display:block;
+  margin:4px 4px 12px 4px;
+  padding:6px;
+  width:86%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 3px;
+  border:1px solid black;
+  background-color:lightblue;
+  color:black;
+  text-align:center;
+}
+
+.workstation_create_new_lead_list_btn:hover{
+  cursor:pointer;
+  background-color:gainsboro;
+}
+
+.workstation_create_new_lead_list_btn{
+  display:block;
+  margin:4px 4px 12px 4px;
+  padding:6px;
+  width:94%;
+  border:1px solid black;
+  background-color:white;
+  border-radius:3px;
+}
+
+.right_workstation_lead_list_title{
+  border:none;
+  font-size:20px;
+  display:inline-block;
+  width: 150px;
+}
+
+.right_workstation_leads_data{
+  display:block;
+  width:90%;
+  border:none;
+  margin:4px 0px 4px 0px;
+}
+
+.right_workstation_edit_lead_list_btn:hover{
+  cursor:pointer;
+}
+
+.right_workstation_edit_lead_list_btn{
+  display:inline-block;
+}
+
+.right_workstation_edit_container{
+  display:inline-block;
 }
