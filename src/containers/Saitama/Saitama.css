@@ -134,7 +134,7 @@
   color:green;
 }
 
-.campaign_workstation_container{
+.campaign_workstation_container, .workstation_filter_container{
   list-style: none;
   font-size: 17px;
   padding: 10px;
@@ -226,4 +226,12 @@
 
 .right_workstation_edit_container{
   display:inline-block;
+}
+
+.workstation_filter_title{
+  font-size:20px;
+}
+
+.filter_form_ul_options{
+  display:none;
 }

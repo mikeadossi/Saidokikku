@@ -3,7 +3,7 @@ import saitama_img from './images/saitama_400.jpeg';
 import ryuzaki_img from './images/ryuzaki_400.jpeg';
 import ed_img from './images/Ed_600.png';
 
-class HomeContentContainer extends Component {
+class HomeContentComponent extends Component {
   render() {
     return (
       <div className="home_content_container">
@@ -39,4 +39,4 @@ class HomeContentContainer extends Component {
   }
 }
 
-export default HomeContentContainer;
+export default HomeContentComponent;

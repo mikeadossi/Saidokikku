@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import HomeContentContainer from '../../components/HomeContentContainer';
+import HomeContentComponent from '../../components/HomeContentComponent';
 import HomeBanner from '../../components/HomeBanner';
 
 const Home = () => (
@@ -10,7 +10,7 @@ const Home = () => (
     </div>
     <div className="app_content_container">
       <div className="app_white_background_container">
-        <HomeContentContainer />
+        <HomeContentComponent />
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class SaitamaSelectContainer extends Component {
+class SaitamaSelectComponent extends Component {
   render() {
     return ( 
       <div className="saitama_select_container">
@@ -12,4 +12,4 @@ class SaitamaSelectContainer extends Component {
   }
 }
 
-export default SaitamaSelectContainer;
+export default SaitamaSelectComponent;
