@@ -7,7 +7,7 @@ class FilterFormComponent extends Component {
       <div className="filter_form_container">
         <div className="workstation_filter_container">
           <div className="workstation_filter_title">FILTER OPTIONS</div>
-          <form className="container">
+          <form className="workstation_filter_items">
             <div className="filter_form_first">
               <div className="cell cell_1">
                 <input type="text" placeholder="Opportunity Name"/>
