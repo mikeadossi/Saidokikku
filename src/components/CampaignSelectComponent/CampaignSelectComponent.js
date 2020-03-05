@@ -10,7 +10,7 @@ class CampaignSelectComponent extends Component {
           <hr className="campaign_select_option_hr"/>
           <li className="campaign_select_option"><input className="campaign_option_name" type="text" value="CAMPAIGN 2" disabled="disabled"/></li>
           <hr className="campaign_select_option_hr"/>
-          <li className="campaign_select_option create_new_campaign_btn">CREATE NEW CAMPAIGN</li>
+          <button className="campaign_select_option create_new_campaign_btn">CREATE NEW CAMPAIGN</button>
         </ul>
       </div>
     );

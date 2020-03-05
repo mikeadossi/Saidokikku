@@ -2,25 +2,28 @@
   display:inline-block;
   width:200px;
   padding:10px;
-  border:1px solid grey;
+  border:1px solid white;
+  border-radius:3px;
   margin-right:5px;
   cursor:pointer;
   text-align: center;
+  font-size: 14px;
 }
 
 .saitama_option:hover{
   cursor:pointer;
 }
 
-.saitama_option_right{
-  background-color:#EBEBEB;
-}
 .saitama_option_center{
-  background-color:#EBEBEB;
+  font-weight:bold;
+}
+
+.saitama_option_right{
+  background-color:#F5F5F5;
 }
 
 .saitama_option_left{
-  color:steelblue;
+  background-color:#F5F5F5;
 }
 
 .saitama_content_window{
@@ -61,25 +64,6 @@
   padding:5px;
 }
 
-.campaign_select_option input:hover{
-  cursor:pointer;
-}
-
-.campaign_select_option:hover{
-  cursor:pointer;
-}
-
-.create_new_campaign_btn:hover{
-  background-color:gainsboro;
-  padding:5px;
-}
-
-.create_new_campaign_btn{
-  text-align: center;
-  border:1px solid black;
-  border-radius:3px;
-}
-
 .campaign_select_option_hr{
    background-color:gainsboro;
    height:1px;
@@ -102,9 +86,13 @@
 
 .campaign_url_entry{
   width: 70%;
+  border:2px solid gainsboro;
+  border-radius:3px;
 }
 
 .edit_campaign_name_entry{
+  border:2px solid gainsboro;
+  border-radius:3px;
   width:40%;
 }
 
@@ -114,13 +102,14 @@
 
 .campaign_url_entry_button:hover, .campaign_name_btns:hover{
   cursor:pointer;
-  background-color:gainsboro;
+  border:2px solid black;
 }
 
 .campaign_url_entry_button{
   margin-left:10px;
-  padding:5px;
+  padding:6px;
   border-radius:3px;
+  border:2px solid grey;
 }
 
 .campaign_name_btns{
@@ -128,10 +117,7 @@
   padding:5px;
   border-radius:3px;
   width:80px;
-}
-
-.save_campaign_name_button{
-  color:green;
+  border:2px solid grey;
 }
 
 .filter_form_ul_options{

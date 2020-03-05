@@ -37,3 +37,17 @@ textarea:focus, input:focus{
 .app_white_background_container{
   padding-bottom:100px;
 }
+
+.app_close_container:hover{
+  cursor:pointer;
+}
+
+.app_close_container{
+  color:white;
+  float: right;
+  margin-top: -6px;
+}
+
+button{
+  font-family: 'Brandon Grotesque', Arial, sans-serif;
+}

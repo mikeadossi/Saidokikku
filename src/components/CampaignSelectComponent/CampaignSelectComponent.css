@@ -1,0 +1,16 @@
+.create_new_campaign_btn:hover{
+  cursor:pointer;
+  border:2px solid black;
+}
+
+.create_new_campaign_btn{
+  padding:12px;
+}
+
+.create_new_campaign_btn{
+  text-align: center;
+  border:2px solid gainsboro;
+  border-radius:3px;
+  width:18%;
+  color:black;
+}
