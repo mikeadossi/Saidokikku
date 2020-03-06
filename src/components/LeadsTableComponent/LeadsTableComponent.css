@@ -12,3 +12,60 @@
   font-size:9px;
   padding:3px;
 }
+
+.lead_list_filter_buttons:hover{
+  cursor:pointer;
+  border:2px solid black;
+}
+
+.lead_list_filter_buttons{
+  margin-left: 10px;
+  padding: 6px;
+  border-radius: 3px;
+  border: 2px solid grey;
+  width:120px;
+}
+
+.name_new_lead_list, .edit_new_lead_list_title{
+  display:inline-block;
+}
+
+.edit_new_lead_list_title{
+  margin-left:10px;
+}
+
+.select_filter_to_apply_container{
+  border:1px solid gainsboro;
+  text-align:center;
+  margin:10px;
+  padding:20px;
+}
+
+.select_filter_title{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.select_filter_to_apply_container{
+  background-color:white;
+  border-radius:3px;
+}
+
+.filter_name_button:hover{
+  cursor:pointer;
+  border:2px solid orange;
+}
+
+.filter_name_button{
+  padding: 6px;
+  border-radius: 3px;
+  border: 2px solid grey;
+  width:60%;
+  display:block;
+  margin: 10px auto;
+}
+
+.filter_name_button_container{
+  /* text-align:center; */
+  /* dislay:block; */
+}

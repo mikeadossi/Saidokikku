@@ -6,7 +6,8 @@ class FilterFormComponent extends Component {
     return (
       <div className="filter_form_container">
         <div className="workstation_filter_container">
-          <div className="workstation_filter_title">FILTER OPTIONS</div>
+          <div className="workstation_filter_title">NEW FILTER</div>
+          <div className="workstation_filter_title">EDIT FILTER</div> 
           <form className="workstation_filter_items">
             <div className="filter_form_first">
               <div className="cell cell_1">
@@ -230,6 +231,7 @@ class FilterFormComponent extends Component {
           </form>
           <div className="filter_form_next_row">
             <button className="filter_form_buttons filter_form_clear_button">Clear</button>
+            <button className="filter_form_buttons filter_form_save_button">Ignore Changes</button>
             <button className="filter_form_buttons filter_form_save_button">Save</button>
           </div>
         </div>

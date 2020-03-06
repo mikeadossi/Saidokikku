@@ -4,8 +4,10 @@ import CampaignSelectComponent from '../CampaignSelectComponent/CampaignSelectCo
 import CreateNewCampaignComponent from '../CreateNewCampaignComponent/CreateNewCampaignComponent';
 import SetCampaignNameComponent from '../SetCampaignNameComponent/SetCampaignNameComponent';
 import CampaignWorkstationComponent from '../CampaignWorkstationComponent/CampaignWorkstationComponent';
-import FilterFormComponent from '../FilterFormComponent/FilterFormComponent';
 import LeadsTableComponent from '../LeadsTableComponent/LeadsTableComponent';
+import CreateNewLeadListComponent from '../CreateNewLeadListComponent/CreateNewLeadListComponent';
+import SaitamaFiltersComponent from '../SaitamaFiltersComponent/SaitamaFiltersComponent';
+
 
 class SaitamaCampaignComponent extends Component {
   render() {
@@ -15,7 +17,8 @@ class SaitamaCampaignComponent extends Component {
           <CreateNewCampaignComponent />
           <SetCampaignNameComponent />
           <CampaignWorkstationComponent />
-          <FilterFormComponent />
+          <CreateNewLeadListComponent />
+          <SaitamaFiltersComponent />
           <LeadsTableComponent />
       </div>
     );
