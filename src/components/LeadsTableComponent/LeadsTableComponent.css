@@ -1,0 +1,14 @@
+.leadsTableContainer{
+  padding: 9px;
+}
+
+.topLevelTableRow{
+  border:1px solid gainsboro;
+}
+
+.tableHead, .tableData{
+  border:1px solid gainsboro;
+  width:114px;
+  font-size:9px;
+  padding:3px;
+}

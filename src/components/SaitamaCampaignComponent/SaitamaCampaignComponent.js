@@ -5,6 +5,7 @@ import CreateNewCampaignComponent from '../CreateNewCampaignComponent/CreateNewC
 import SetCampaignNameComponent from '../SetCampaignNameComponent/SetCampaignNameComponent';
 import CampaignWorkstationComponent from '../CampaignWorkstationComponent/CampaignWorkstationComponent';
 import FilterFormComponent from '../FilterFormComponent/FilterFormComponent';
+import LeadsTableComponent from '../LeadsTableComponent/LeadsTableComponent';
 
 class SaitamaCampaignComponent extends Component {
   render() {
@@ -15,6 +16,7 @@ class SaitamaCampaignComponent extends Component {
           <SetCampaignNameComponent />
           <CampaignWorkstationComponent />
           <FilterFormComponent />
+          <LeadsTableComponent />
       </div>
     );
   }
