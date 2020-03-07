@@ -33,7 +33,7 @@ class FilterViewComponent extends Component {
                 <li>Engaged</li>
                 <li>Ordered</li>
                 <li>Closed Lost</li>
-                <li>Unqialified</li>
+                <li>Unqualified</li>
                 <li>Analysis</li>
                 <li>Bid/Proposal Submitted</li>
                 <li>Verbal Commitment</li>

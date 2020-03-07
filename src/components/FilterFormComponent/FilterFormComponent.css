@@ -8,13 +8,6 @@
   flex-wrap:wrap;
 }
 
-.cell{
-  padding:5px;
-  margin:3px;
-  width:18%;
-  border:1px solid grey;
-}
-
 .workstation_filter_title{
   font-size:20px;
 }

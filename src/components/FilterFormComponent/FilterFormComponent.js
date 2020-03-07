@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './FilterFormComponent.css';
+import dropIcon_img from '../images/dropIcon.png';
 
 class FilterFormComponent extends Component {
   render() {
@@ -7,7 +8,7 @@ class FilterFormComponent extends Component {
       <div className="filter_form_container">
         <div className="workstation_filter_container">
           <div className="workstation_filter_title">NEW FILTER</div>
-          <div className="workstation_filter_title">EDIT FILTER</div> 
+          <div className="workstation_filter_title">EDIT FILTER</div>
           <form className="workstation_filter_items">
             <div className="filter_form_first">
               <div className="cell cell_1">
@@ -17,7 +18,10 @@ class FilterFormComponent extends Component {
                 <input type="text" placeholder="Owner"/>
               </div>
               <div className="cell cell_3">
-                <div>Product Family</div>
+                <div className="cell_title">
+                  Product Family
+                  <img className="header_menu_drop_icon" src={dropIcon_img}/>
+                </div>
                 <ul className="filter_form_ul_options filter_product_family_options">
                   <li>Commerical Charging</li>
                   <li>Commercial Energy</li>
@@ -27,7 +31,10 @@ class FilterFormComponent extends Component {
                 </ul>
               </div>
               <div className="cell cell_4">
-                <div>Stage</div>
+                <div className="cell_title">
+                  Stage
+                  <img className="header_menu_drop_icon" src={dropIcon_img}/>
+                </div>
                 <ul className="filter_form_ul_options filter_stage_options">
                   <li>New</li>
                   <li>Attempting to Engage</li>
@@ -50,7 +57,10 @@ class FilterFormComponent extends Component {
                 <input type="text" placeholder="Reservation Number"/>
               </div>
               <div className="cell cell_7">
-                <div>Assigned Store</div>
+                <div>
+                  Assigned Store
+                  <img className="header_menu_drop_icon" src={dropIcon_img}/>
+                </div>
                 <ul className="filter_form_ul_options filter_assigned_store_options">
                   <li>NA-US-CA-Santa Monica</li>
                   <li>NA-US-CA-Santa Monica-3rd Street Promenade</li>
@@ -63,7 +73,10 @@ class FilterFormComponent extends Component {
                 <input type="text" placeholder="Warehouse"/>
               </div>
               <div className="cell cell_9">
-                <div>Product Interested</div>
+                <div>
+                  Product Interested
+                  <img className="header_menu_drop_icon" src={dropIcon_img}/>
+                </div>
                 <ul className="filter_form_ul_options filter_product_interested_options">
                   <li>Commercial Powerwall</li>
                   <li>Commercial Solar Panels</li>
@@ -85,18 +98,21 @@ class FilterFormComponent extends Component {
                 </ul>
               </div>
               <div className="cell cell_10">Webform Link</div>
-              <div className="cell cell_11">Created From</div>
-              <div className="cell cell_12">Created To</div>
-              <div className="cell cell_13">Updated From</div>
-              <div className="cell cell_14">Updated To</div>
-              <div className="cell cell_15">Closed From</div>
-              <div className="cell cell_16">Closed To</div>
+              <div className="cell cell_11">Created From<i class="fa fa-calendar filter_fa_calendar" aria-hidden="true"></i></div>
+              <div className="cell cell_12">Created To<i class="fa fa-calendar filter_fa_calendar" aria-hidden="true"></i></div>
+              <div className="cell cell_13">Updated From<i class="fa fa-calendar filter_fa_calendar" aria-hidden="true"></i></div>
+              <div className="cell cell_14">Updated To<i class="fa fa-calendar filter_fa_calendar" aria-hidden="true"></i></div>
+              <div className="cell cell_15">Closed From<i class="fa fa-calendar filter_fa_calendar" aria-hidden="true"></i></div>
+              <div className="cell cell_16">Closed To<i class="fa fa-calendar filter_fa_calendar" aria-hidden="true"></i></div>
               <div className="cell cell_17">
                 <div>Account country</div>
                 <input type="text" defaultValue="US"/>
               </div>
               <div className="cell cell_18">
-                <div>Account Region</div>
+                <div>
+                  Account Region
+                  <img className="header_menu_drop_icon" src={dropIcon_img}/>
+                </div>
                 <ul className="filter_form_ul_options filter_account_region_options">
                   <li>Americas</li>
                   <li>Antartica</li>
@@ -106,7 +122,10 @@ class FilterFormComponent extends Component {
                 </ul>
               </div>
               <div className="cell cell_19">
-                <div>Account Market</div>
+                <div>
+                  Account Market
+                  <img className="header_menu_drop_icon" src={dropIcon_img}/>
+                </div>
                 <ul className="filter_form_ul_options filter_account_market_options">
                   <li>Africa</li>
                   <li>Americas-Central</li>
@@ -133,7 +152,10 @@ class FilterFormComponent extends Component {
                 </ul>
               </div>
               <div className="cell cell_20">
-                <div>Closest Store</div>
+                <div>
+                  Closest Store
+                  <img className="header_menu_drop_icon" src={dropIcon_img}/>
+                </div>
                 <ul className="filter_form_ul_options filter_closest_store_options">
                   <li>NA-US-CA-Santa Monica</li>
                   <li>NA-US-CA-Santa Monica-3rd Street Promenade</li>
@@ -143,7 +165,10 @@ class FilterFormComponent extends Component {
                 </ul>
               </div>
               <div className="cell cell_21">
-                <div>Product Ordered</div>
+                <div>
+                  Product Ordered
+                  <img className="header_menu_drop_icon" src={dropIcon_img}/>
+                </div>
                 <ul className="filter_form_ul_options filter_product_ordered_options">
                   <li>Commercial Powerwall</li>
                   <li>Commercial Solar Panels</li>

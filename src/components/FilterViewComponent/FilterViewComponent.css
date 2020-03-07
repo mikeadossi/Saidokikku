@@ -1,3 +1,45 @@
 .filter_view_container{
   background-color:#ECF1EF;
 }
+
+.filter_stage_options, .filter_product_family_options{
+  /* display:block !important; */
+  display:none;
+  background-color:white;
+  position:absolute;
+  width:15.2%;
+  padding:10px;
+  margin-top:-1px;
+  margin-left:-1px;
+  border-radius:0px 0px 3px 3px;
+  border-right:1px solid grey;
+  border-bottom:1px solid grey;
+  border-left:1px solid grey;
+}
+
+.filter_form_ul_options{
+  display:none;
+}
+
+.cell_3, .cell_4{
+  padding:0px !important;
+}
+
+.cell{
+  padding:5px;
+  margin:3px;
+  width:23%;
+  border:1px solid grey;
+  border-radius:3px;
+}
+
+.cell_title{
+  margin:7px;
+}
+
+.filter_fa_calendar{
+  height: 12px;
+  float: right;
+  margin-top: 4px;
+  color:grey;
+}
